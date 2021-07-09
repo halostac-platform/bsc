@@ -242,7 +242,7 @@ var (
 		Value: 2048,
 	}
 	TriesInMemoryFlag = cli.Uint64Flag{
-		Name:  "triesInMemoryFlag",
+		Name:  "triesInMemory",
 		Usage: "The layer of tries trees that keep in memory",
 		Value: 128,
 	}
